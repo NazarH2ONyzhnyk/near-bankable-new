@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+    .font-200 {
+        font-size: 200px;
+        color: #FFFFFF;
+        opacity: 0.04;
+    }
+
+    .card {
+        width: 328px;
+        height: 207px;
+        background: url('../img/balance-bg.png') no-repeat;
+        background-size: contain;
+    }
+    
+    .shadow-avatar {
+        background-blend-mode: soft-light, normal;
+        box-shadow: -2.06882px -2.06882px 4.13764px #FAFBFF, 2.06882px 2.06882px 4.13764px #A6ABBD;
+    }
+
+    .alert {
+        width: 312px;
+    }
+
+    @screen md {
+        .clip {
+            clip-path: polygon(100% 10%, 100% 68%, 100% 100%, 0% 100%, 0% 50%);
+        }
+        .card {
+            width: 372px;
+            height: 235px;
+        }
+        .alert {
+            width: 498px;
+        }
+    }
+    @screen lg {
+        .card {
+            width: 520px;
+            height: 328px;
+        }
+    }
+}

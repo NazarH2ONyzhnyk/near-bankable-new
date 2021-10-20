@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEAR Bankable Transfer</title>
+    <link rel="stylesheet" href="./build/tailwind.css">
+    <link rel="icon" href="./img/near_logo_stack 1.png">
+</head>
+<body>
+    <!-- First screen -->
+    <header class="relative">
+        <div class="relative z-10 container mx-auto px-6">
+            
+            <!-- Navbar -->
+            <nav class="font-serif">
+                <div class="flex flex-col md:flex-row items-center justify-between py-7">
+
+                    <!-- Logo -->
+                    <a href="#" class="flex items-center">
+                        <img src="./img/near_logo_stack 2.png" alt="" class="">
+                        <div class="w-0.5 bg-black h-10 ml-1 mr-3 rounded-full"></div>
+                        <p class="text-black font-bold text-2xl sm:text-4xl pb-1">Bankable</p>
+                    </a>
+
+                    
+
+                    <!-- Login -->
+                    <div class="flex items-center">
+
+                        <!-- Login btn -->
+                        <a href="#" class="flex items-center bg-near-800 rounded-full py-2 px-8 text-white text-lg font-semibold hover:bg-white hover:text-near-800 transform active:scale-95 duration-100">
+                            <img src="./img/near_logo_stack 1.png" alt="" class="mr-3 w-8">
+                            Logout
+                            <svg class="mx-2" xmlns="http://www.w3.org/2000/svg" width="1" height="36" viewBox="0 0 1 36" fill="none">
+                                <rect width="1" height="36" fill="currentColor"/>
+                            </svg>
+                            <p class="text-yellow-500">oliinykk.near</p>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </nav>
+
+            
+        </div>
+        <div class="relative w-full">
+
+            <img src="./img/gradient-col.png" alt="" class="absolute top-0 right-0 h-full w-10 md:w-auto">
+            <img src="./img/gradient-col.png" alt="" class="absolute top-0 left-0 h-full w-10 md:w-auto">
+            <img src="./img/lock-left.png" alt="" class="hidden md:block absolute left-32 top-6">
+            <img src="./img/lock-right.png" alt="" class="hidden md:block absolute right-44 bottom-12">
+            <img src="./img/near.png" alt="" class="hidden md:block absolute bottom-12 left-64">
+            <img src="./img/near.png" alt="" class="hidden md:block absolute top-12 right-64">
+
+            <div class="relative z-20 container mx-auto px-6">
+                <div class="relative pt-20 pb-32">
+                    <p class="text-center text-near-800 font-bold text-6xl">Transfer NEAR</p>
+                    <p class="mt-9 text-center text-near-800 font-bold text-8xl">20 NEAR</p>
+                    <p class="mt-4 text-center text-gray-400 font-bold text-base">1243.50 NEAR</p>
+                    <form action="" class="w-full md:w-96 mx-auto">
+                        <p class="font-semibold">Transfer to</p>
+                        <input type="text" placeholder="example.near" class="w-full mt-2 py-2 pl-6 outline-none border-2 rounded-md focus:border-yellow-500">
+                        <div class="flex flex-col items-center">
+                            <a href="#" class="mx-auto inline-block mt-8 border-2 border-near-800 bg-near-800 text-white w-60 py-3 text-center font-semibold text-lg rounded-full hover:bg-white hover:text-near-800 transform active:scale-95 duration-100">
+                                Send
+                            </a>
+                            <a href="#" class="mt-3 text-center font-semibold text-near-800 hover:text-near-900 transform active:scale-95 duration-100">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Footer -->
+    <footer class="relative z-50">
+        <div class="container mx-auto px-6 mt-20">
+            <div class="flex flex-col md:flex-row">
+
+                <div class="flex flex-col">
+                    <!-- Logo -->
+                    <a href="#" class="flex items-center">
+                        <img src="./img/near_logo_stack 2.png" alt="" class="">
+                        <div class="w-0.5 bg-black h-10 ml-1 mr-3 rounded-full"></div>
+                        <p class="text-black font-bold text-2xl sm:text-4xl pb-1">Bankable</p>
+                    </a>
+                    <a href="#" class="mt-1">
+                        info@nearbankable
+                    </a>
+                    <a href="#" class="mt-1">
+                        1-232-3434 (Main)
+                    </a>
+                </div>
+
+                <div class="w-auto md:ml-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-x-14 lg:gap-x-28 xl:gap-x-40 gap-y-10">
+                    <!-- About -->
+                <div class="">
+                    <h5 class="text-2xl font-bold mt-2">About</h5>
+                    <ul class="mt-4 space-y-2 text-gray-600">
+                        <li><a href="./alert-successful.html" class="hover:text-black font-medium">About contract</a></li>
+                        <li><a href="./alert-failed.html" class="hover:text-black font-medium">About NEAR </a></li>
+                        <li><a href="" class="hover:text-black font-medium">About NEAR ecosystem</a></li>
+                    </ul>
+                </div>
+
+                <!-- Community -->
+                <div class="">
+                    <h5 class="text-2xl font-bold mt-2">Community</h5>
+                    <ul class="mt-4 space-y-2 text-gray-600">
+                        <li><a href="" class="hover:text-black font-medium">Community OS Wiki</a></li>
+                        <li><a href="" class="hover:text-black font-medium">Forum</a></li>
+                        <li><a href="" class="hover:text-black font-medium">Events</a></li>
+                    </ul>
+                </div>
+
+                <!-- Help -->
+                <div class="">
+                    <h5 class="text-2xl font-bold mt-2">Help</h5>
+                    <ul class="mt-4 space-y-2 text-gray-600">
+                        <li><a href="" class="hover:text-black font-medium">Support</a></li>
+                        <li><a href="" class="hover:text-black font-medium">info@nearbankable</a></li>
+                        <li><a href="" class="hover:text-black font-medium">1-232-3434 (Main)</a></li>
+                    </ul>
+                </div>
+                </div>
+
+            </div>
+            <div class="flex justify-center my-10">
+                <p class="">© 2021 NEAR Ltd</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
