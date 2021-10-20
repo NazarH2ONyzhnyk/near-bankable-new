@@ -11,6 +11,7 @@ module.exports = {
       colors: {
 
         near: {
+          100: '#FCFCFC',
           500: '#95E1FF',
           600: '#95E1FF',
           700: '#65A6D5',
