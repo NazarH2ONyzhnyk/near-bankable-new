@@ -13,7 +13,7 @@
     .card {
         width: 328px;
         height: 207px;
-        background: url('../img/balance-bg.png') no-repeat;
+        /* background: url('../img/balance-bg.png') no-repeat; */
         background-size: contain;
     }
     
